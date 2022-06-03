@@ -1,0 +1,56 @@
+
+.portafolio{
+    display: flex;
+    padding: 50px 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    border: 2px white solid;
+
+
+    margin-top: 20px;
+}
+.tit{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: justify;
+    font-style: italic;
+    color: rgb(253, 255, 254);
+    text-align: center;
+    text-decoration-line:underline;
+    text-align: left;
+    
+}
+.texto-por{
+    width: 65%;
+    
+}
+.pl-title{
+    font-size: 50px;
+    font-weight: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.pl-desc{
+    margin: 20px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.pl-lis{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.v{
+    width: 300px;
+    height: 200px;
+}
+.button{
+    border-radius: 5px;
+}

@@ -1,0 +1,125 @@
+body{
+  background-color: black;
+     
+ 
+}
+.intro {
+    margin-top: 15px;
+    display: flex;
+    height: 100vh;
+    border: 2px white solid;
+}
+
+  .i-l {
+    flex: 1;
+    display: flex;
+    padding-left: 20px;
+    justify-items: center;
+    
+   
+  }
+  
+  .i-r{
+    flex: 1;
+    position: relative;
+  
+  }
+  .parteI-wrapper {
+    padding: 10px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+  }
+  .titulo{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: justify;
+    font-style: italic;
+    color: rgb(253, 255, 254);
+    text-align: center;
+    text-decoration-line:underline;
+
+  }
+
+  .intro-1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: aliceblue;
+  }
+
+  .name{
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+  }
+  .i-title{
+    height: 50px;
+    overflow: hidden;
+
+
+  }
+
+  .i-title-item{
+    padding: 10px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#ee9ca7;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    
+
+  }
+
+  .i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+  }
+
+  @keyframes move {
+    25%{
+      transform: translateY( -50px);
+    }
+    50%{
+      transform: translateY( -100px);
+    }
+    75%{
+      transform: translateY( -150px);
+    }
+    100%{
+      transform: translateY( -200px);
+    }
+  }
+
+  .i-desc{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+
+  .fotoM{
+      width: 700px;
+      height: 750px;
+      object-fit: cover;
+      position:absolute;
+      align-items: center;
+      margin-left: 40px;
+  }
+
+.img-i{
+  padding-top: 20px;
+  clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background: #DBE6F6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  width: 100%;
+  height: 730px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
