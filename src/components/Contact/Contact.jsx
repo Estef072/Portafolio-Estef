@@ -1,3 +1,5 @@
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/jsx-props-no-multi-spaces */
 import React from 'react';
 import './Contact.scss';
 import FB from '../../assetes/fb.png';
@@ -13,23 +15,23 @@ function Contact() {
         <h1 className="cl">Puedes contactarme:</h1>
       </div>
       <div className="cl-contact">
-        <form method="get" action="http://3.135.147.195:3008/index.html">
-          <button type="button" className="button1">
+        <form method="get" action="https://www.facebook.com/estefania.elviraramos.7/">
+          <button className="button1">
             <img className="g" src={FB} alt="video-html" />
           </button>
         </form>
-        <form method="get" action="http://3.135.147.195:3008/index.html">
-          <button type="button" className="button1">
+        <form method="get" action="https://www.instagram.com/estef_elvira/">
+          <button className="button1">
             <img className="g" src={IG} alt="video-html" />
           </button>
         </form>
         <form method="get" action="https://wa.me/qr/RSOWOJKW3Y4FF1">
-          <button type="button" className="button1">
+          <button className="button1">
             <img className="g" src={What} autoPlay loop muted alt="video-html" />
           </button>
         </form>
-        <form method="get" action="http://3.135.147.195:3008/index.html">
-          <button type="button" className="button1">
+        <form method="get" action="https://www.linkedin.com/in/sayra-estefan%C3%ADa-elvira-ramos/">
+          <button className="button1">
             <img className="g" src={Lin} autoPlay loop muted alt="video-html" />
           </button>
         </form>

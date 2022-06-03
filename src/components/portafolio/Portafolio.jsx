@@ -1,3 +1,4 @@
+/* eslint-disable react/button-has-type */
 import React from 'react';
 import './Portafolio.scss';
 import Video from '../../assetes/video.mp4';
@@ -12,24 +13,24 @@ function Portafolio() {
       </div>
       <div className="pl-lis">
         <form method="get" action="http://3.135.147.195:3008/index.html">
-          <button type="button" href="http://3.135.147.195:3008/index.html" className="button">
+          <button className="button">
             <video className="v" src={Video} autoPlay loop muted alt="video-html" />
           </button>
         </form>
         <form method="get" action="http://3.135.147.195:3001">
-          <button type="button" className="button">
+          <button className="botton">
             <video className="v" src={Video} autoPlay loop muted alt="video-html" />
           </button>
         </form>
 
         <form method="get" action="http://3.135.147.195:3013">
-          <button type="button" className="button">
+          <button className="button">
             <video className="v" src={Video} autoPlay loop muted alt="video-html" />
           </button>
         </form>
 
         <form method="get" action="http://3.135.147.195:3012">
-          <button type="button" className="button">
+          <button className="button">
             <video className="v" src={Video} autoPlay loop muted alt="video-html" />
           </button>
         </form>
