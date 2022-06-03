@@ -1,5 +1,6 @@
 body{
   background-color: black;
+
      
  
 }
@@ -122,4 +123,24 @@ body{
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .parteI-wrapper{
+  
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .i-desc{
+    display: none;
+  }
+  
 }

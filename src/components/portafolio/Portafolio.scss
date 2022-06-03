@@ -54,3 +54,17 @@
 .button{
     border-radius: 5px;
 }
+
+@media screen and (max-width: 480px) {
+    .portafolio{
+      padding: 10px;
+    }
+  
+    .texto-por {
+      width: 100%;
+    }
+  
+    .pl-desc {
+      display: none;
+    }
+  }

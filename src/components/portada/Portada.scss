@@ -83,3 +83,23 @@ a:hover { color: #c982b7e2; }
     position:flex;
     z-index: -2;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .parteI-wrapper{
+    
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+  
+    .i-desc{
+      display: none;
+    }
+    
+  }
